@@ -10,7 +10,18 @@ If you are using these colors as background colors, consistent lightness lets yo
 ## Usage
 
     require 'color-generator'
-    generator = ColorGenerator.new 0.3, 1.0
+
+Generate colors using the HSL color representation:
+
+    generator = ColorGenerator.new saturation: 0.3, lightness: 0.75
+    color1 = generator.create
+    # => "cfd2ac"
+    color2 = generator.create
+    # => "cbacd2"
+
+Generate colors using the HSV color representation:
+
+    generator = ColorGenerator.new saturation: 0.3, value: 1.0
     color1 = generator.create
     # => "f7b3ff"
     color2 = generator.create
