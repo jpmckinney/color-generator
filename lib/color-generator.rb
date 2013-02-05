@@ -23,17 +23,26 @@ class ColorGenerator
     end
   end
 
-  # Generates a random color.
+  # Formats a random color as an RGB hex triplet.
   #
   # @return [String] an RGB hex triplet
-  def create
+  def create_hex
+    '%02x%02x%02x' % create_rgb
+  end
+
+  # For backwards compatibility.
+  alias_method :create, :create_hex
+
+  # Generates a random color as an RGB decimal triplet.
+  #
+  # @return [Array] an RGB decimal triplet
+  def create_rgb
     @hue = (hue + GOLDEN_RATIO_CONJUGATE) % 1
-    color = if hsl?
+    if hsl?
       self.class.rgb_from_hsl hue, saturation, lightness
     else
       self.class.rgb_from_hsv hue, saturation, value
     end
-    '%02x%02x%02x' % color
   end
 
   # @return [Boolean] whether the color representation is HSL
