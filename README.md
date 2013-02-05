@@ -27,10 +27,11 @@ Generate colors using the HSV color representation:
     color2 = generator.create_hex
     # => "b3ffe0"
 
-If you prefer a decimal RGB value:
+If you want to make color generation repeatable, set a seed for the pseudorandom number generator:
 
-    generator = ColorGenerator.new saturation: 0.3, value: 1.0
-    color = generator.create_rgb
+    generator = ColorGenerator.new saturation: 0.3, value: 1.0, seed: 12345
+
+If you prefer a decimal RGB value, call `create_rgb` instead of `create_hex`.
 
 ## Acknowledgements
 

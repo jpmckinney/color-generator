@@ -11,7 +11,9 @@ class ColorGenerator
   #   sets the color representation to HSL
   # @option opts [Float,Integer] :value value in the interval [0, 1], sets the
   #   color representation to HSV
+  # @option opts [Integer] :seed seed for the pseudorandom number generator
   def initialize(opts = {})
+    srand(opts[:seed]) if opts.key?(:seed)
     @hue = rand
     @saturation = opts[:saturation].to_f
     if opts.has_key? :lightness
