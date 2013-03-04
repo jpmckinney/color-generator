@@ -1,3 +1,3 @@
-module ColorGenerator
+class ColorGenerator
   VERSION = "0.0.3"
 end
