@@ -1,5 +1,6 @@
 # Ruby Color Generator
 
+[![Build Status](https://secure.travis-ci.org/opennorth/color-generator.png)](http://travis-ci.org/opennorth/color-generator)
 [![Dependency Status](https://gemnasium.com/opennorth/color-generator.png)](https://gemnasium.com/opennorth/color-generator)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/opennorth/color-generator)
 
