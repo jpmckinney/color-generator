@@ -2,7 +2,8 @@
 
 [![Build Status](https://secure.travis-ci.org/opennorth/color-generator.png)](http://travis-ci.org/opennorth/color-generator)
 [![Dependency Status](https://gemnasium.com/opennorth/color-generator.png)](https://gemnasium.com/opennorth/color-generator)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/opennorth/color-generator)
+[![Coverage Status](https://coveralls.io/repos/opennorth/color-generator/badge.png?branch=master)](https://coveralls.io/r/opennorth/color-generator)
+[![Code Climate](https://codeclimate.com/github/opennorth/color-generator.png)](https://codeclimate.com/github/opennorth/color-generator)
 
 This gem randomly generates very distinct colors with consistent lightness and saturation.
 
