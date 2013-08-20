@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["info@opennorth.ca"]
   s.homepage    = "http://github.com/opennorth/color-generator"
   s.summary     = %q{Randomly generate distinct colors with consistent lightness and saturation}
+  s.license     = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
