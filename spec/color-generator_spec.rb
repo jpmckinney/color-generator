@@ -21,4 +21,10 @@ describe ColorGenerator do
       value.should <= 255
     end
   end
+
+  it 'should use the provided hue' do
+    generator = ColorGenerator.new(:saturation => 0.3, :value => 1.0, :hue => 0.5)
+    generator.create_hex.should == 'ffe9b3'
+    generator.hue.should == 0.1180339887498949
+  end
 end
