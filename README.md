@@ -1,5 +1,6 @@
 # Ruby Color Generator
 
+[![Gem Version](https://badge.fury.io/rb/color-generator.svg)](http://badge.fury.io/rb/color-generator)
 [![Build Status](https://secure.travis-ci.org/opennorth/color-generator.png)](http://travis-ci.org/opennorth/color-generator)
 [![Dependency Status](https://gemnasium.com/opennorth/color-generator.png)](https://gemnasium.com/opennorth/color-generator)
 [![Coverage Status](https://coveralls.io/repos/opennorth/color-generator/badge.png?branch=master)](https://coveralls.io/r/opennorth/color-generator)
