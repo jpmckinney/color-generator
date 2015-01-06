@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/color-generator.svg)](http://badge.fury.io/rb/color-generator)
 [![Build Status](https://secure.travis-ci.org/jpmckinney/color-generator.png)](http://travis-ci.org/jpmckinney/color-generator)
 [![Dependency Status](https://gemnasium.com/jpmckinney/color-generator.png)](https://gemnasium.com/jpmckinney/color-generator)
-[![Coverage Status](https://coveralls.io/repos/jpmckinney/color-generator/badge.png?branch=master)](https://coveralls.io/r/jpmckinney/color-generator)
+[![Coverage Status](https://coveralls.io/repos/jpmckinney/color-generator/badge.png)](https://coveralls.io/r/jpmckinney/color-generator)
 [![Code Climate](https://codeclimate.com/github/jpmckinney/color-generator.png)](https://codeclimate.com/github/jpmckinney/color-generator)
 
 This gem randomly generates very distinct colors with consistent lightness and saturation.
