@@ -1,10 +1,10 @@
-# Ruby Color Generator
+# Color Generator
 
 [![Gem Version](https://badge.fury.io/rb/color-generator.svg)](http://badge.fury.io/rb/color-generator)
-[![Build Status](https://secure.travis-ci.org/opennorth/color-generator.png)](http://travis-ci.org/opennorth/color-generator)
-[![Dependency Status](https://gemnasium.com/opennorth/color-generator.png)](https://gemnasium.com/opennorth/color-generator)
-[![Coverage Status](https://coveralls.io/repos/opennorth/color-generator/badge.png?branch=master)](https://coveralls.io/r/opennorth/color-generator)
-[![Code Climate](https://codeclimate.com/github/opennorth/color-generator.png)](https://codeclimate.com/github/opennorth/color-generator)
+[![Build Status](https://secure.travis-ci.org/jpmckinney/color-generator.png)](http://travis-ci.org/jpmckinney/color-generator)
+[![Dependency Status](https://gemnasium.com/jpmckinney/color-generator.png)](https://gemnasium.com/jpmckinney/color-generator)
+[![Coverage Status](https://coveralls.io/repos/jpmckinney/color-generator/badge.png?branch=master)](https://coveralls.io/r/jpmckinney/color-generator)
+[![Code Climate](https://codeclimate.com/github/jpmckinney/color-generator.png)](https://codeclimate.com/github/jpmckinney/color-generator)
 
 This gem randomly generates very distinct colors with consistent lightness and saturation.
 
@@ -40,8 +40,4 @@ If you prefer a decimal RGB value, call `create_rgb` instead of `create_hex`.
 
 Thanks to Martin Ankerl for his [blog post](http://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/) which inspired this gem.
 
-## Bugs? Questions?
-
-This gem's main repository is on GitHub: [http://github.com/opennorth/color-generator](http://github.com/opennorth/color-generator), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
-
-Copyright (c) 2012 Open North Inc., released under the MIT license
+Copyright (c) 2012 James McKinney, released under the MIT license
