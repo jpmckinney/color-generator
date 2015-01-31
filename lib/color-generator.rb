@@ -93,7 +93,7 @@ private
   # @param [Float] m
   # @return [Array] an RGB decimal triplet
   #
-  # @see http://en.wikipedia.org/wiki/HSL_and_HSV#Converting_to_RGB
+  # @see https://en.wikipedia.org/wiki/HSL_and_HSV#Converting_to_RGB
   def self.rgb_from_hsl_or_hsv(h, c, m)
     h_prime = h * 6
     x = c * (1 - (h_prime % 2 - 1).abs)

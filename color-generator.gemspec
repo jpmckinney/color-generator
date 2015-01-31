@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = ColorGenerator::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["James McKinney"]
-  s.homepage    = "http://github.com/jpmckinney/color-generator"
+  s.homepage    = "https://github.com/jpmckinney/color-generator"
   s.summary     = %q{Randomly generate distinct colors with consistent lightness and saturation}
   s.license     = 'MIT'
 
