@@ -11,6 +11,10 @@ If you are using these colors as background colors, consistent lightness lets yo
 
 ## Usage
 
+Add `gem 'color-generator'` to your projects `Gemfile` and run `bundle`, or run `gem install color-generator` to install the gem manually.
+
+Then load the library in your code with:
+
     require 'color-generator'
 
 Generate colors using the HSL color representation:
